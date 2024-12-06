@@ -1,1 +1,59 @@
+# Versionamiento Semántico - Proyecto MerkaChecheres
+
+## Esquema de Versionamiento
+El formato utilizado es **MAJOR.MINOR.PATCH**, donde:
+- **MAJOR (X):** Cambios que rompen compatibilidad con versiones anteriores.
+- **MINOR (Y):** Nuevas funcionalidades compatibles con versiones existentes.
+- **PATCH (Z):** Corrección de errores o ajustes menores.
+
+
+---
+
+## Cambios por Versión
+
+### [vX.Y.Z] - YYYY-MM-DD
+#### Added
+- Descripción de nuevas funcionalidades añadidas.
+
+#### Changed
+- Descripción de funcionalidades existentes que han sido modificadas.
+
+#### Fixed
+- Descripción de errores corregidos.
+
+---
+
+## Ejemplo de Versionado
+### [v1.0.0] - 2024-12-15
+#### Added
+- Sistema de búsqueda avanzada con filtros de precio y categoría.
+
+#### Fixed
+- Corrección de errores en el carrito de compras.
+
+#### Changed
+- Rediseño del flujo de registro para nuevos usuarios.
+
+---
+
+## Responsabilidades
+- **MAJOR:** Decisiones en conjunto con el equipo; impacto significativo en el sistema.
+- **MINOR:** Mejoras o funcionalidades adicionales que no afectan la compatibilidad.
+- **PATCH:** Correcciones rápidas a problemas detectados.
+
+---
+
+## Herramientas
+- **Git Tags:** Para etiquetar las versiones del proyecto.
+  - Comando: `git tag -a vX.Y.Z -m "Descripción"`
+  - Subir al repositorio: `git push origin vX.Y.Z`
+- **Semantic Release:** Para automatizar el análisis y gestión de versiones.
+
+---
+
+### Cómo Utilizar Esta Plantilla
+1. Registra los cambios en cada nueva versión siguiendo el formato `MAJOR.MINOR.PATCH`.
+2. Documenta cada cambio bajo las secciones correspondientes (`Added`, `Changed`, `Fixed`).
+3. Actualiza el archivo de versioning y sincronízalo con el repositorio.
+
 1.0.0
