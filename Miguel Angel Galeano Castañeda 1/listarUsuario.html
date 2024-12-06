@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navGeneralContainer">
+            <div class="titleContainer">
+                <h1>Merka Checheres</h1>
+            </div>
+            <div class="buttonsContainer">
+                <div class="inicioButtonContainer">
+                    <a href="/listarUsuario.html" class="buttonsMid">Inicio</a>
+                </div>
+                <div class="categoriasButtonContainer">
+                    <a href="" class="buttonsMid">Categorias</a>
+                </div>
+                <div class="catalogoButtonContainer">
+                    <a href="" class="buttonsMid">Catalogo</a>
+                </div>
+            </div>
+            <div class="searchBarContainerGeneral">
+                <div class="searchBarContainer">
+                    <h2 id="buscarText">Busca Cualquier cosa...</h2>
+                </div>
+            </div>
+            <div class="righIconsContainer">
+                <div class="heartContainer">
+                    <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Heart">
+                        <path id="Vector" d="M16.5 27C16.5 27 4 20 4 11.5C4 9.99737 4.52062 8.54114 5.47328 7.37908C6.42593 6.21703 7.75178 5.42093 9.22525 5.12624C10.6987 4.83154 12.2288 5.05646 13.5551 5.76272C14.8814 6.46898 15.9221 7.61296 16.5 9.00001C17.0779 7.61296 18.1186 6.46898 19.4449 5.76272C20.7712 5.05646 22.3013 4.83154 23.7748 5.12624C25.2482 5.42093 26.5741 6.21703 27.5267 7.37908C28.4794 8.54114 29 9.99737 29 11.5C29 20 16.5 27 16.5 27Z" stroke="#0E0D0D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        </svg>
+                </div>
+                <div class="carritoContainer">
+                    <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="ph:user">
+                        <path id="Vector" d="M29.365 26.5C27.4612 23.2087 24.5275 20.8487 21.1037 19.73C22.7973 18.7218 24.113 17.1856 24.849 15.3572C25.5849 13.5289 25.7004 11.5095 25.1775 9.60918C24.6547 7.70887 23.5226 6.03272 21.9549 4.83814C20.3873 3.64355 18.4709 2.99658 16.5 2.99658C14.5291 2.99658 12.6126 3.64355 11.045 4.83814C9.47737 6.03272 8.34522 7.70887 7.8224 9.60918C7.29958 11.5095 7.41501 13.5289 8.15096 15.3572C8.8869 17.1856 10.2027 18.7218 11.8962 19.73C8.47247 20.8475 5.53872 23.2075 3.63497 26.5C3.56516 26.6138 3.51885 26.7405 3.49878 26.8725C3.47872 27.0045 3.48529 27.1392 3.51813 27.2687C3.55096 27.3981 3.60939 27.5197 3.68996 27.6262C3.77053 27.7326 3.87162 27.8219 3.98725 27.8887C4.10289 27.9555 4.23073 27.9985 4.36323 28.015C4.49574 28.0316 4.63022 28.0215 4.75875 27.9853C4.88728 27.949 5.00725 27.8874 5.11158 27.8041C5.21591 27.7207 5.3025 27.6173 5.36622 27.5C7.72122 23.43 11.8837 21 16.5 21C21.1162 21 25.2787 23.43 27.6337 27.5C27.6974 27.6173 27.784 27.7207 27.8884 27.8041C27.9927 27.8874 28.1127 27.949 28.2412 27.9853C28.3697 28.0215 28.5042 28.0316 28.6367 28.015C28.7692 27.9985 28.8971 27.9555 29.0127 27.8887C29.1283 27.8219 29.2294 27.7326 29.31 27.6262C29.3906 27.5197 29.449 27.3981 29.4818 27.2687C29.5146 27.1392 29.5212 27.0045 29.5012 26.8725C29.4811 26.7405 29.4348 26.6138 29.365 26.5ZM9.49997 12C9.49997 10.6155 9.91051 9.26214 10.6797 8.11099C11.4489 6.95985 12.5421 6.06264 13.8212 5.53283C15.1003 5.00301 16.5077 4.86439 17.8656 5.13449C19.2235 5.40458 20.4708 6.07127 21.4497 7.05023C22.4287 8.0292 23.0954 9.27648 23.3655 10.6344C23.6356 11.9922 23.4969 13.3997 22.9671 14.6788C22.4373 15.9578 21.5401 17.0511 20.389 17.8203C19.2378 18.5894 17.8844 19 16.5 19C14.6441 18.998 12.8647 18.2599 11.5524 16.9475C10.2401 15.6352 9.50196 13.8559 9.49997 12Z" fill="black"/>
+                        </g>
+                        </svg>
+                </div>
+                <div class="userContainer">
+                <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="ph:user">
+                    <path id="Vector" d="M29.365 26.5C27.4612 23.2087 24.5275 20.8487 21.1037 19.73C22.7973 18.7218 24.113 17.1856 24.849 15.3572C25.5849 13.5289 25.7004 11.5095 25.1775 9.60918C24.6547 7.70887 23.5226 6.03272 21.9549 4.83814C20.3873 3.64355 18.4709 2.99658 16.5 2.99658C14.5291 2.99658 12.6126 3.64355 11.045 4.83814C9.47737 6.03272 8.34522 7.70887 7.8224 9.60918C7.29958 11.5095 7.41501 13.5289 8.15096 15.3572C8.8869 17.1856 10.2027 18.7218 11.8962 19.73C8.47247 20.8475 5.53872 23.2075 3.63497 26.5C3.56516 26.6138 3.51885 26.7405 3.49878 26.8725C3.47872 27.0045 3.48529 27.1392 3.51813 27.2687C3.55096 27.3981 3.60939 27.5197 3.68996 27.6262C3.77053 27.7326 3.87162 27.8219 3.98725 27.8887C4.10289 27.9555 4.23073 27.9985 4.36323 28.015C4.49574 28.0316 4.63022 28.0215 4.75875 27.9853C4.88728 27.949 5.00725 27.8874 5.11158 27.8041C5.21591 27.7207 5.3025 27.6173 5.36622 27.5C7.72122 23.43 11.8837 21 16.5 21C21.1162 21 25.2787 23.43 27.6337 27.5C27.6974 27.6173 27.784 27.7207 27.8884 27.8041C27.9927 27.8874 28.1127 27.949 28.2412 27.9853C28.3697 28.0215 28.5042 28.0316 28.6367 28.015C28.7692 27.9985 28.8971 27.9555 29.0127 27.8887C29.1283 27.8219 29.2294 27.7326 29.31 27.6262C29.3906 27.5197 29.449 27.3981 29.4818 27.2687C29.5146 27.1392 29.5212 27.0045 29.5012 26.8725C29.4811 26.7405 29.4348 26.6138 29.365 26.5ZM9.49997 12C9.49997 10.6155 9.91051 9.26214 10.6797 8.11099C11.4489 6.95985 12.5421 6.06264 13.8212 5.53283C15.1003 5.00301 16.5077 4.86439 17.8656 5.13449C19.2235 5.40458 20.4708 6.07127 21.4497 7.05023C22.4287 8.0292 23.0954 9.27648 23.3655 10.6344C23.6356 11.9922 23.4969 13.3997 22.9671 14.6788C22.4373 15.9578 21.5401 17.0511 20.389 17.8203C19.2378 18.5894 17.8844 19 16.5 19C14.6441 18.998 12.8647 18.2599 11.5524 16.9475C10.2401 15.6352 9.50196 13.8559 9.49997 12Z" fill="black"/>
+                    </g>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mainGeneralContainer">
+        <aside class="asideAdmin">
+            <div class="adminContainer">
+                <div class="adminTittleContainer">
+                    <h2 id="titleAdmin">Administrador</h2>
+                </div>
+                <div class="photoAdminContainer">
+                    <img id="adminPhoto" style="width: 66px;" height="71px" src="/img/admin.png" alt="">
+                </div>
+            </div>
+            <div class="dashboardContainer">
+                <h4 id="dashboardText">Dashboard</h4>
+            </div>
+            <div class="usersContainer">
+                <h4 id="usersText">Usuarios</h4>
+            </div>
+        </aside>
+        
+
+        <section class="dataGeneralContainer">
+            <div class="searchbarFilterContainer">
+                <div class="filterContainer">
+                    <div class="filterDiv">
+                        <a href="" id="filterText">Filtro</a>
+                    </div>
+                    <div class="IconFilterDiv">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.792893C-0.0675907 1.15338 -0.0953203 1.72061 0.209705 2.1129L0.292893 2.20711L5.29289 7.20711C5.65338 7.56759 6.22061 7.59532 6.6129 7.2903L6.70711 7.20711L11.7071 2.20711C12.0976 1.81658 12.0976 1.18342 11.7071 0.792893C11.3466 0.432409 10.7794 0.40468 10.3871 0.709705L10.2929 0.792893L6 5.085L1.70711 0.792893C1.34662 0.432409 0.779392 0.40468 0.387101 0.709705L0.292893 0.792893Z" fill="#545353"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="searchContainer">
+                    <div class="xx">
+                        <div class="searchIconContainer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                <circle cx="7.375" cy="7.375" r="6.375" stroke="#7E7D7C" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M12.3333 12.3333L18 17.9999" stroke="#7E7D7C" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="buscarContainer">
+                            <input type="text" id="buscarText" placeholder="Buscar...">
+                        </div>
+                    </div>
+                </div>
+                <div class="userRegisterContainer">
+                    <div class="registerUserContainer">
+                        <a id="registerUserText">Registrar Usuario</a>
+                    </div>
+                    <div class="registerIconContainer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path d="M16.2365 14.9062C15.1657 13.0549 13.5154 11.7274 11.5896 11.0981C12.5422 10.531 13.2823 9.66686 13.6963 8.63841C14.1103 7.60996 14.1752 6.47405 13.8811 5.40513C13.587 4.33621 12.9502 3.39338 12.0684 2.72142C11.1866 2.04947 10.1086 1.68555 8.99998 1.68555C7.89134 1.68555 6.81335 2.04947 5.93156 2.72142C5.04976 3.39338 4.41293 4.33621 4.11884 5.40513C3.82476 6.47405 3.88968 7.60996 4.30366 8.63841C4.71763 9.66686 5.45775 10.531 6.41037 11.0981C4.48451 11.7267 2.83427 13.0542 1.76341 14.9062C1.72414 14.9702 1.6981 15.0415 1.68681 15.1158C1.67552 15.19 1.67922 15.2658 1.69769 15.3386C1.71616 15.4114 1.74902 15.4798 1.79435 15.5397C1.83967 15.5996 1.89653 15.6498 1.96157 15.6874C2.02662 15.7249 2.09853 15.7491 2.17306 15.7584C2.24759 15.7678 2.32324 15.7621 2.39554 15.7417C2.46784 15.7213 2.53532 15.6867 2.59401 15.6398C2.65269 15.5929 2.7014 15.5347 2.73724 15.4687C4.06193 13.1793 6.40334 11.8125 8.99998 11.8125C11.5966 11.8125 13.938 13.1793 15.2627 15.4687C15.2986 15.5347 15.3473 15.5929 15.4059 15.6398C15.4646 15.6867 15.5321 15.7213 15.6044 15.7417C15.6767 15.7621 15.7524 15.7678 15.8269 15.7584C15.9014 15.7491 15.9733 15.7249 16.0384 15.6874C16.1034 15.6498 16.1603 15.5996 16.2056 15.5397C16.2509 15.4798 16.2838 15.4114 16.3023 15.3386C16.3207 15.2658 16.3244 15.19 16.3131 15.1158C16.3019 15.0415 16.2758 14.9702 16.2365 14.9062ZM5.06248 6.74996C5.06248 5.9712 5.29341 5.20992 5.72607 4.5624C6.15872 3.91488 6.77368 3.4102 7.49316 3.11218C8.21264 2.81416 9.00435 2.73619 9.76815 2.88812C10.5319 3.04005 11.2335 3.41506 11.7842 3.96573C12.3349 4.5164 12.7099 5.21799 12.8618 5.98179C13.0137 6.74559 12.9358 7.53729 12.6378 8.25678C12.3397 8.97626 11.8351 9.59121 11.1875 10.0239C10.54 10.4565 9.77874 10.6875 8.99998 10.6875C7.95603 10.6863 6.95516 10.2711 6.21698 9.53296C5.47879 8.79478 5.06359 7.79391 5.06248 6.74996Z" fill="black"/>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="detailsSection">
+            
+            <div class="table-container">
+                <table class="user-table">
+                    <thead>
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>Nombre y Apellido</th>
+                        <th>Cédula</th>
+                        <th>Email</th>
+                        <th>Teléfono</th>
+                        <th>Dirección</th>
+                        <th>Acciones</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Dianne Russell</td>
+                            <td>1006564326</td>
+                            <td>sara.cruz@example.com</td>
+                            <td>(704) 555-0127</td>
+                            <td>Lafayette, California</td>
+                            <td class="actions">
+                                <button class="view">👁</button>
+                                <button class="edit">✏️</button>
+                                <button class="delete">🗑</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Esther Howard</td>
+                            <td>1006564326</td>
+                            <td>sara.cruz@example.com</td>
+                            <td>(704) 555-0127</td>
+                            <td>Pasadena, Oklahoma</td>
+                            <td class="actions">
+                                <button class="view">👁</button>
+                                <button class="edit">✏️</button>
+                                <button class="delete">🗑</button>
+                            </td>
+                        </tr>
+                    <!-- Más filas aquí -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
