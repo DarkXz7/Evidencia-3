@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.1.0] - 2024-12-06
+## [v1.0.0-alpha.1] - 2024-12-06
 ### Added
 - interfaz de pagina principal de admin añadida.
 
