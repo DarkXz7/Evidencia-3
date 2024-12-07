@@ -6,7 +6,7 @@
 ##[v1.0.0-alpha.2] - 2024-12-06
 
 ### Added
--Se agregó la lista de los usuarios para listarlos al admin
+- Se agregó la lista de los usuarios para listarlos al admin
 
 ### fixed
 - se corrigio un fallo con el diseño responsive para dispotivos moviles
