@@ -1,91 +1,89 @@
 # Evidencia-3
 
-MerkaChecheres
-Breve descripción o eslogan del proyecto.
+Marketplace de Compra y Venta de Productos de Segunda Mano
 
 
-Índice
-Descripción
-Características
-Requisitos Previos
-Instalación
-Uso
-Versionado
-Contribuciones
-Licencia
-Autores
-Descripción
+
+
 Una breve explicación del propósito del proyecto:
-
-¿Qué problema resuelve?
-¿Por qué es útil?
-¿Qué tecnologías utiliza?
-Ejemplo:
-
 Este proyecto es una aplicación de comercio electrónico que permite a los usuarios buscar, comparar y comprar productos de manera eficiente.
 
-Características
-✅ Función 1: Búsqueda avanzada por filtros.
-✅ Función 2: Registro de usuarios con autenticación segura.
-✅ Función 3: Carrito de compras dinámico.
-⚙️ Función en desarrollo: Integración con pasarelas de pago.
+🛠️ Características Principales
+Registro de usuarios: Permite a los usuarios registrarse y crear una cuenta.
+Inicio de sesión seguro: Seguridad en el acceso con autenticación de usuario.
+Creación de anuncios: Los usuarios pueden crear anuncios para vender productos de segunda mano.
+Búsqueda avanzada: Herramienta para buscar productos de forma rápida.
+Mensajería directa: Permite la comunicación segura entre compradores y vendedores.
+Perfil de usuario: Cada usuario tiene un perfil para administrar sus productos y su información personal.
+
+🚀 Tecnologías Utilizadas
+El proyecto está construido utilizando las siguientes tecnologías:
+
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js / Express.js
+Base de Datos: MySQL, MongoDB
+Sistema de Control de Versiones: Git & GitHub
+Gestión de Versionado Semántico: Implementación mediante SemVer
+Despliegue: A través de servicios como Heroku o plataformas de hosting seguras.
+
+
 Requisitos Previos
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-Node.js (versión >= 16)
-Git
 Un navegador web moderno (Chrome, Firefox, etc.)
-Instalación
+
+
+
 Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
-Clona el repositorio:
+📂 Instalación
+Sigue estos pasos para configurar el proyecto en tu entorno local:
 
-bash
-Copiar código
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-Instala las dependencias:
+Clonar el repositorio: 
+¡Claro! A continuación, te proporcionaré un ejemplo de un README.md estructurado para un proyecto que es un marketplace de compra y venta de productos de segunda mano:
 
-bash
-Copiar código
-npm install
-Ejecuta la aplicación:
+📦 Marketplace de Compra y Venta de Productos de Segunda Mano
+Un marketplace web que permite a usuarios comprar y vender productos de segunda mano de forma rápida, intuitiva y segura. La plataforma incluye funciones de registro de usuarios, búsqueda de productos, creación de anuncios y mensajes entre usuarios.
 
-bash
-Copiar código
-npm start
-Uso
-Explica cómo utilizar la aplicación:
+🛠️ Características Principales
+Registro de usuarios: Permite a los usuarios registrarse y crear una cuenta.
+Inicio de sesión seguro: Seguridad en el acceso con autenticación de usuario.
+Creación de anuncios: Los usuarios pueden crear anuncios para vender productos de segunda mano.
+Búsqueda avanzada: Herramienta para buscar productos de forma rápida.
+Mensajería directa: Permite la comunicación segura entre compradores y vendedores.
+Perfil de usuario: Cada usuario tiene un perfil para administrar sus productos y su información personal.
+🚀 Tecnologías Utilizadas
+El proyecto está construido utilizando las siguientes tecnologías:
 
-Accede a la URL: http://localhost:3000
-Registra un nuevo usuario para comenzar.
-Explora las funcionalidades, como agregar productos al carrito.
-Versionado
-Este proyecto sigue el esquema de versionado semántico (MAJOR.MINOR.PATCH):
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js / Express.js
+Base de Datos: MySQL, MongoDB
+Sistema de Control de Versiones: Git & GitHub
+Gestión de Versionado Semántico: Implementación mediante SemVer
+Despliegue: A través de servicios como Heroku o plataformas de hosting seguras.
+📂 Instalación
+Sigue estos pasos para configurar el proyecto en tu entorno local:
 
-[v1.0.0] - Lanzamiento inicial del proyecto.
-Consulta el archivo CHANGELOG.md para más detalles sobre los cambios en cada versión.
+Clonar el repositorio: git clone https://github.com/DarkXz7/marketplace.git
 
-Contribuciones
-¡Las contribuciones son bienvenidas! Para contribuir:
+Configurar las variables de entorno:
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=password
+DB_NAME=marketplace
+PORT=3000
 
-Haz un fork del repositorio.
-Crea una rama nueva para tus cambios:
-bash
-Copiar código
-git checkout -b feature/nueva-funcionalidad
-Haz un commit de tus cambios:
-bash
-Copiar código
-git commit -m "Añadida nueva funcionalidad"
-Envía un pull request.
-Revisa el archivo CONTRIBUTING.md para más detalles.
+Iniciar el servidor:
+npm run dev
 
-Licencia
-Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo LICENSE para más información.
 
-Autores
-Tu Nombre - @tuUsuario
-Breve descripción o rol dentro del proyecto.
-Agradecimientos
-Agradecimientos especiales a herramientas, colaboradores, o recursos externos que ayudaron en el desarrollo.
+
+📝 Changelog
+Puedes consultar el archivo CHANGELOG.md para conocer el historial completo de cambios, actualizaciones y nuevas características agregadas al proyecto.
+
+
+📧 Contacto
+Si tienes preguntas, sugerencias o deseas reportar un error, contáctame a través de:
+
+Correo electrónico: merkachecheres@hotmail.com
+GitHub: https://github.com/DarkXz7
