@@ -5,7 +5,7 @@
 
 ##[v1.0.0-alpha.2] - 2024-12-06
 
-###Added
+### Added
 -Se agregó la lista de los usuarios para listarlos al admin
 
 ### fixed
